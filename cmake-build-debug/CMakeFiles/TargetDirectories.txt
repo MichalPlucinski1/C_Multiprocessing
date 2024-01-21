@@ -1,3 +1,3 @@
-/home/pluto/polibuda/psiw/cmake-build-debug/CMakeFiles/psiw.dir
-/home/pluto/polibuda/psiw/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/pluto/polibuda/psiw/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/michael/LinuxSystem&ConcuringProgrammingInC/C_Multiprocessing/cmake-build-debug/CMakeFiles/psiw.dir
+/home/michael/LinuxSystem&ConcuringProgrammingInC/C_Multiprocessing/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/michael/LinuxSystem&ConcuringProgrammingInC/C_Multiprocessing/cmake-build-debug/CMakeFiles/rebuild_cache.dir

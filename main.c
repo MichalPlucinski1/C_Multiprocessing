@@ -43,6 +43,8 @@ int * generateSideTab(){
 
 static struct sembuf buf;
 
+
+
 void podnies(int semid, int semnum){
     buf.sem_num = semnum;
     buf.sem_op = 1;
@@ -94,15 +96,15 @@ int main() {
 
     // semafor
 
-    int semid = semget(SEM_KEY, 1, IPC_CREAT|0600);
+    int semid_0 = semget(SEM_KEY, 1, IPC_CREAT|0600);
 
-    if(semid == -1){
+    if(semid_0 == -1){
         perror("Blad utworzenia semafora");
         exit(1);
     }
 
-    if(semctl(semid, 0, SETVAL, 0) == -1){
-        perror("Blad nadania wartosci semaforowi");
+    if(semctl(semid_0, 0, SETVAL, 2) == -1) {
+        perror("Blad nadania wartosci semaforowi 0");
         exit(1);
     }
 
@@ -124,12 +126,13 @@ int main() {
 
     printf("1 masa:%d strona:%d\n", weighTab[0], sideTab[0]);
 
-    for(int i = 1; i < N; ++i){
+    for(int i = 0; i < N; ++i){
         if(getpid() == ppid){
             pid = fork();
-            if(pid > 0){
+            if(pid == 0){
                 weight = weighTab[i];
                 side = sideTab[i];
+                break;
             }
 
             if(pid < 0){
@@ -158,7 +161,7 @@ int main() {
             return 0;
         }
         while(1){
-            podnies(semid, 0);
+            opusc(semid_0, 0);
             if(smhbuf[1] == 0 || (smhbuf[1] == 1 && smhbuf[0] == side && smhbuf[2] + weight < MAX_WEIGHT)){
                 smhbuf[0] = side;
                 smhbuf[1] += 1;
@@ -170,11 +173,11 @@ int main() {
                 smhbuf[1] -= 1;
                 smhbuf[2] -= weight;
 
-                opusc(semid, 0);
+                podnies(semid_0, 0);
                 return 0;
             }
 
-            opusc(semid,0);
+            podnies(semid_0,0);
 
         }
 

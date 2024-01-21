@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/pluto/polibuda/psiw/cmake-build-debug",
-		"source" : "/home/pluto/polibuda/psiw"
+		"build" : "/home/michael/LinuxSystem&ConcuringProgrammingInC/C_Multiprocessing/cmake-build-debug",
+		"source" : "/home/michael/LinuxSystem&ConcuringProgrammingInC/C_Multiprocessing"
 	},
 	"version" : 
 	{

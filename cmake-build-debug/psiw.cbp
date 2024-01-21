@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="psiw"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/michael/LinuxSystem&amp;ConcuringProgrammingInC/C_Multiprocessing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/michael/LinuxSystem&amp;ConcuringProgrammingInC/C_Multiprocessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/michael/LinuxSystem&amp;ConcuringProgrammingInC/C_Multiprocessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/michael/LinuxSystem&amp;ConcuringProgrammingInC/C_Multiprocessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/michael/LinuxSystem&amp;ConcuringProgrammingInC/C_Multiprocessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="psiw">
+				<Option output="/home/michael/LinuxSystem&amp;ConcuringProgrammingInC/C_Multiprocessing/cmake-build-debug/psiw" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/michael/LinuxSystem&amp;ConcuringProgrammingInC/C_Multiprocessing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/michael/LinuxSystem&amp;ConcuringProgrammingInC/C_Multiprocessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 psiw"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/michael/LinuxSystem&amp;ConcuringProgrammingInC/C_Multiprocessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/michael/LinuxSystem&amp;ConcuringProgrammingInC/C_Multiprocessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/michael/LinuxSystem&amp;ConcuringProgrammingInC/C_Multiprocessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="psiw/fast">
+				<Option output="/home/michael/LinuxSystem&amp;ConcuringProgrammingInC/C_Multiprocessing/cmake-build-debug/psiw" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/michael/LinuxSystem&amp;ConcuringProgrammingInC/C_Multiprocessing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/michael/LinuxSystem&amp;ConcuringProgrammingInC/C_Multiprocessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 psiw/fast"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/michael/LinuxSystem&amp;ConcuringProgrammingInC/C_Multiprocessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/michael/LinuxSystem&amp;ConcuringProgrammingInC/C_Multiprocessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/michael/LinuxSystem&amp;ConcuringProgrammingInC/C_Multiprocessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/michael/LinuxSystem&amp;ConcuringProgrammingInC/C_Multiprocessing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/michael/LinuxSystem&amp;ConcuringProgrammingInC/C_Multiprocessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/michael/LinuxSystem&amp;ConcuringProgrammingInC/C_Multiprocessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/michael/LinuxSystem&amp;ConcuringProgrammingInC/C_Multiprocessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/michael/LinuxSystem&amp;ConcuringProgrammingInC/C_Multiprocessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/michael/LinuxSystem&amp;ConcuringProgrammingInC/C_Multiprocessing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/michael/LinuxSystem&amp;ConcuringProgrammingInC/C_Multiprocessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/michael/LinuxSystem&amp;ConcuringProgrammingInC/C_Multiprocessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/michael/LinuxSystem&amp;ConcuringProgrammingInC/C_Multiprocessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/michael/LinuxSystem&amp;ConcuringProgrammingInC/C_Multiprocessing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/michael/LinuxSystem&amp;ConcuringProgrammingInC/C_Multiprocessing/main.c">
+			<Option target="psiw"/>
+		</Unit>
+		<Unit filename="/home/michael/LinuxSystem&amp;ConcuringProgrammingInC/C_Multiprocessing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
