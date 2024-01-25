@@ -3,4 +3,5 @@ project(psiw C)
 
 set(CMAKE_C_STANDARD 17)
 
-add_executable(psiw main.c)
+add_executable(psiw main.c
+)
