@@ -5,25 +5,25 @@ swiatlo1
 waga
 osoby
 
-semafory swiatla moze miec wartosci z zakresu 0-1, zaczyna z 1 (swiatlo zielone)
+semafory swiatła mogą mieć wartości z zakresu 0-1, zaczyna z 1 (światło zielone)
 
-waga zaczyna z wartoscia max_waga
+waga zaczyna z wartością max_waga
 
-osoby zaczynaja z wartoscia 0
+osoby zaczynaja z wartością 0
 
-algorytm dla kazdego procesu:
-opusc swoje swiatla (czeka na zielone)
-opusc swiatlo przeciwnej strony (daj mu czerwone swiatlo)
-podnies swiatlo swojej strony (zeby inni z jego strony mogli przejsc)
+algorytm dla każdego procesu:
+opuść swoje światła (czeka na zielone)
+opuść światło przeciwnej strony (daj mu czerwone swiatlo)
+podnieś światło swojej strony (żeby inni z jego strony mogli przejść)
 
-opusc waga o masa  (test masy)
-podnies ilosc osob
+opuść wagę o masę  (test masy)
+podnieś ilość osób
 
 //przechodzi\\
 
-opdnies waga
+podnieś wagę
 
-opusc ilosc osob
+opuść ilość osób
 
-jezeli ilosc osob = 0
-	podnies swiatlo drugiej strony (wszyscy maja wtedy zielone)
+jezeli ilość osób = 0
+	podnieś swiatło drugiej strony (wszyscy maja wtedy zielone)
